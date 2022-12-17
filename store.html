@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Profile</title>
+
+    <!--font size -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+
+
+
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="store.css">
+
+    <!-- 
+      icoonmoon
+     -->
+        <link rel="stylesheet" href="moonicon/style.css">
+        <link rel="stylesheet" href="iconFontA/style.css">
+
+    <!-- bootsrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- bootstrap -->
+ 
+    <script defer src="/javascript/main.js"></script>
+    <script defer src="/javascript/store.js"></script>
+
+    
+  </head>
+  <body id="body">
+
+    <header class="myheader" id="myheader">
+
+
+        <h1 id="header"></h1>
+        
+      </div>
+
+      <nav>
+        <ul class="parent" id="parent">
+          <li>
+            <a href="#"> check </a>
+          </li>
+          <li><a href="about-us.html"> About Me </a></li>
+
+          <li id="changecolor">
+            change color
+            <!--dropdown parent-->
+            <!--dropdown childs-->
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+          <li id="dark" class="mode">change mode</li>
+        </ul>
+      </nav>
+      
+    </header>
+ 
+    <div class="show-my-basket">
+
+      <button id="btn-show-basket">show my basket</button>
+    </div>
+
+
+
+<div id="checkout" class="checkout">
+
+<div class="icon-cross-parent"><span class="icon-cross"></span>
+  <div id="checkout-child" class="checkout-child">
+  
+
+
+
+    <article class="total-container">
+
+      <button class="p-chechkout" id="danger">Continue to checkout</button>
+      <div class="total-parent">
+        <p> Total price : <input id="input-total-price" type="number" disabled>$</p>
+      </div>
+
+    </article>
+ 
+</div>
+
+    </div>
+</div>
+<h1>cards from bootstrap</h1>
+
+
+<div class="parent-of-cards">
+  <div class="card" style="width: 18rem;">
+    <img src="img/DASS-shoes-with_box (1).jpg" class="card-img-top" alt="...">
+    <div class="body-parent">
+    <div class="card-body">
+      <h5 class="card-title card-title-u">shoe number 1</h5>
+      <p class="card-text product-info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      
+      <div class="price-parent">    
+        <a href="#" class="btn btn-primary">add to card</a>
+        <div class="price">$125</div>
+       </div>
+    </div>
+  </div>
+  </div>
+
+  
+    <div class="card" style="width: 18rem;">
+      <img src="img/DASS-shoes-with_box (2).jpg" class="card-img-top" alt="...">
+      <div class="body-parent">
+      <div class="card-body">
+        <h5 class="card-title card-title-u" >shoe number 2</h5>
+        <p class="card-text product-info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="price-parent">    
+          <a href="#" class="btn btn-primary">add to card</a>
+          <div class="price">$120</div>
+         </div>
+      </div>
+    </div>
+    </div>
+      <div class="card" style="width: 18rem;">
+        <img src="img/DASS-shoes-with_box3.jpg" class="card-img-top" alt="...">
+    <div class="body-parent ">
+      <div class=" b-p card-body ">
+        <h5 class="card-title card-title-u">shoe number 3</h5>
+        <p class="card-text product-info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="price-parent">    
+          <a href="#" class="btn btn-primary">add to card</a>
+          <div class="price">$150</div>
+         </div>
+      </div>
+    </div>
+      </div>
+
+
+
+
+
+      
+</div>
+
+
+
+
+<!-- card compenent from codepen -->
+
+<!-- <h1>card from codepen </h1>
+
+
+
+<div class="alpatchino">
+
+
+  <div class="container">
+    <div class="card">
+      <button class="btn-add-to-card">add to card </button>
+
+      <div class="card-head">
+        <img src="img/clothing-brand-logo-creator-with-a-brush-stroke-typeface-3149e (1).png" alt="logo" class="card-logo">
+        <img src="/img/DASS-shoes-with_box (1).jpg" alt="Shoe" class="product-img">
+        
+        <div class="product-detail">
+          <h2>COSMOS</h2> Italian Zoom Air come together for a more supportive feel with high-speed responsiveness
+        </div>
+        <span class="back-text">
+                DAS
+              </span>
+      </div>
+      <div class="card-body">
+        <div class="product-desc">
+          <span class="product-title">
+                  Hartbee<b>spoort</b>
+                  <span class="badge">
+                    New
+                  </span>
+
+          </span>
+          <span class="product-caption">
+                  Basket Ball Collection
+                </span>
+          <span class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star grey"></i>
+                </span>
+        </div>
+        <div class="product-properties">
+          <span class="product-size">
+                  <h4>Size</h4>
+                  <ul class="ul-size">
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#" class="active">10</a></li>
+                    <li><a href="#">11</a></li>
+                  </ul>
+                </span>
+          <span class="product-color">
+                  <h4>Colour</h4>
+                  <ul class="ul-color">
+                    <li><a href="#" class="orange active"></a></li>
+                    <li><a href="#" class="green"></a></li>
+                    <li><a href="#" class="yellow"></a></li>
+                  </ul>
+                </span>
+          <span class="product-price">
+                  USD<b>23,453</b>
+                </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="container">
+    <div class="card">
+      <button class="btn-add-to-card">add to card</button>
+      <div class="card-head">
+        <img src="img/clothing-brand-logo-creator-with-a-brush-stroke-typeface-3149e (1).png" alt="logo" class="card-logo">
+        <img src="/img/DASS-shoes-with_box (1).jpg" alt="Shoe" class="product-img">
+        <div class="product-detail">
+          <h2>COSMOS</h2> Italian Zoom Air come together for a more supportive feel with high-speed responsiveness
+        </div>
+        <span class="back-text">
+                DAS
+  
+          
+              </span>
+      </div>
+      <div class="card-body">
+        <div class="product-desc">
+          <span class="product-title">
+                  Hartbee<b>spoort</b>
+                  <span class="badge">
+                    New
+                  </span>
+          </span>
+          <span class="product-caption">
+                  Basket Ball Collection
+                </span>
+          <span class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star grey"></i>
+                </span>
+        </div>
+        <div class="product-properties">
+          <span class="product-size">
+                  <h4>Size</h4>
+                  <ul class="ul-size">
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#" class="active">10</a></li>
+                    <li><a href="#">11</a></li>
+                  </ul>
+                </span>
+          <span class="product-color">
+                  <h4>Colour</h4>
+                  <ul class="ul-color">
+                    <li><a href="#" class="orange active"></a></li>
+                    <li><a href="#" class="green"></a></li>
+                    <li><a href="#" class="yellow"></a></li>
+                  </ul>
+                </span>
+          <span class="product-price">
+                  USD<b>23,453</b>
+                </span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="card">
+      <button class="btn-add-to-card">add to card</button>
+      <div class="card-head">
+        <img src="img/clothing-brand-logo-creator-with-a-brush-stroke-typeface-3149e (1).png" alt="logo" class="card-logo">
+        <img src="/img/DASS-shoes-with_box (1).jpg" alt="Shoe" class="product-img">
+        <div class="product-detail">
+          <h2>COSMOS</h2> Italian Zoom Air come together for a more supportive feel with high-speed responsiveness
+        </div>
+        <span class="back-text">
+                DAS
+              </span>
+      </div>
+
+
+
+      <div class="card-body">
+        <div class="product-desc">
+          <span class="product-title">
+                  Hartbee<b>spoort</b>
+                  <span class="badge">
+                    New
+                  </span>
+          </span>
+          <span class="product-caption">
+                  Basket Ball Collection
+                </span>
+          <span class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star grey"></i>
+                </span>
+        </div>
+        <div class="product-properties">
+          <span class="product-size">
+                  <h4>Size</h4>
+                  <ul class="ul-size">
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#" class="active">10</a></li>
+                    <li><a href="#">11</a></li>
+                  </ul>
+                </span>
+          <span class="product-color">
+                  <h4>Colour</h4>
+                  <ul class="ul-color">
+                    <li><a href="#" class="orange active"></a></li>
+                    <li><a href="#" class="green"></a></li>
+                    <li><a href="#" class="yellow"></a></li>
+                  </ul>
+                </span>
+          <span class="product-price">
+                  USD<b>23,453</b>
+                </span>
+        </div>
+      </div>
+    </div>
+      
+
+  </div>
+
+
+
+</div> -->
+
+
+    <footer>
+      <p class="follow">
+        check my
+
+        <a href=""> Twitter</a>
+      </p>
+
+      <p class="design">Designed and developed by Aksel Amazigh © 2022</p>
+    </footer>
+  </body>
+</html>

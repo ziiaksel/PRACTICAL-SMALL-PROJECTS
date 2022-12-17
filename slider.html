@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/slider.css">
+    <link rel="stylesheet" href="/validation-form.css">
+    <link rel="stylesheet" href="/moonicon/style.css">
+
+
+    <script defer src="/javascript/main.js"></script>
+    <script defer src="javascript/slidershow.js"></script>
+    <script defer src="/javascript/toggle.js"></script>
+    <script defer src="/javascript/form-validation.js"></script>
+    
+  
+</head>
+<body id="body">
+    <header class="myheader" id="myheader">
+
+        <h1 id="header"></h1>
+        
+      </div>
+
+
+      <nav>
+        <ul class="parent" id="parent">
+          <li>
+            <a href="#"> check </a>
+          </li>
+          <li><a href="about-us.html"> About Me </a></li>
+
+          <li id="changecolor">
+            change color
+            <!--dropdown parent-->
+            <!--dropdown childs-->
+            <ul id="hiddenul" style="display: none">
+              <li id="headerbg">Header BG</li>
+              <li id="titlebg">Title BG</li>
+              <li id="titlecolor">Title color</li>
+              <li id="sectionbg">section BG</li>
+            </ul>
+          </li>
+          <li id="dark" class="mode">change mode</li>
+        </ul>
+      </nav>
+    </header>
+    
+      <!--
+        ----SLIDER SECTION---
+      -->
+
+    <!-- <section id="slider-section">
+ 
+        <div id="slide-container">
+        
+      
+       
+        </div>
+        <div id="" class="num-cont">
+          <button id="previous">&lt;  Previous</button>
+          <div id="num-cont" class="numbers" >
+      
+            <button class="num">1</button>
+            <button class="num" >2</button>
+            <button class="num">3</button>
+            
+            </div>
+        
+          <button id="next">Next 	 &gt;</button>
+      
+        </div>
+      </section> -->
+      
+      <!--
+        ----TOGGLE SECTION---
+      -->
+      
+<section id="toggle-tabs">
+<h1>toggle-tabs</h1>
+<div id="all-contries-tabs">
+  <button class="button-contry active-country">Denmark</button>
+  <button class="button-contry">Finland</button>
+  <button class="button-contry">Sweden</button>
+</div>
+<div class="togle-content-container">
+
+  <article class="active-content funfacts" >
+    <h2>3 fun facts about Denmark
+    </h2>
+    <ol>
+      <li>fact number one Denamrk ....</li>
+      <li>fact number two Denmark....</li>
+      <li>fact number three Denmark...</li>
+    </ol>
+  </article>
+  <article  class="funfacts">
+    <h2>3 fun facts about Finland
+    </h2>
+    <ol>
+      <li>fact number two  Finland....</li>
+      <li>fact number one  Finland....</li>
+      <li>fact number three Finland...</li>
+    </ol>
+  </article>
+  <article class="funfacts">
+    <h2>3 fun facts about Sweden
+    </h2>
+    <ol>
+      <li>fact number one  Sweden
+        ....</li>
+      <li>fact number two  Sweden
+        ....</li>
+      <li>fact number three Sweden
+        ...</li>
+    </ol>
+  </article>
+  </section>
+</div>
+
+<!--
+    ----REGISTER IN FORM---
+-->
+
+<section>
+  <h1 >
+    Register Form 
+  </h1>
+  <button id="creat-btn">
+Creat your Account 
+  </button>
+
+<div id="parent-form" class="parent-of-form">
+
+    <form action="action_page.php">
+      <div style="position: relative;" class="form-container">
+       
+
+          <h2 style="text-align: center;">Create Account</h2>
+          <div id="close"> &#10006;  </div>
+ 
+      
+    
+
+    <div class="papa">
+          <label for="username"><b>Username</b></label>
+          <input id="username" type="text" placeholder="Enter Username" name="email" minlength="3" maxlength=""  required autocomplete="username">
+          <div class="icon-checkmark2">    </div>
+          <p id="usermessage"> at least 3 character </p>
+        </div>
+
+
+
+  <div class="papa">
+        <label for="email"><b>Email</b></label>
+        <input id="email" type="email" placeholder="Enter Email" name="email" autocomplete="email"  required>
+        <div class="icon-checkmark2">    </div>
+        <p id="emailmessage">Please enter a correct email address</p>
+      </div>
+
+
+      <div class="papa">
+        <label for="psw"><b>Password</b></label>
+        <input id="psw" type="password" placeholder="Enter Password" name="psw" minlength="8"   required>
+        <div class="icon-checkmark2">    </div>
+        <p id="pswmessage">Password must be at least 8 characters with 1 upper case letter and 1 number.</p>
+      </div>
+
+
+
+      <div class="papa">
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input id="pswrepeat" type="password" placeholder="Repeat Password" name="psw-repeat"  required>
+        <div class="icon-checkmark2">    </div>
+        <p id="repeatmessage">Please make sure your passwords match</p>
+      </div>
+    
+          <button disabled="disabled" id="regbtn"  type="submit" class="registerbtn">Register</button>
+      </div>
+    
+
+    </form>
+
+
+</div>
+</section>
+
+
+
+    <footer>
+      <p class="follow">
+        check my
+
+        <a href=""> Twitter</a>
+      </p>
+
+      <p class="design">Designed and developed by Aksel Amazigh © 2022</p>
+    </footer>
+</body>
+</html>
